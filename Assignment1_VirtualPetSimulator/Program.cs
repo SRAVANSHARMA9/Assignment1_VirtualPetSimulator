@@ -15,7 +15,7 @@ namespace VirtualPetSimulator
             Console.WriteLine("2. Dog");
             Console.WriteLine("3. Rabbit");
             Console.WriteLine("");
-
+            //
 
             Console.WriteLine("User input is : \n");
 
