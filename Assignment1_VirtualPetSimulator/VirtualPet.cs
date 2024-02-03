@@ -8,59 +8,46 @@ namespace VirtualPetSimulator
 {
     public class VirtualPet
     {
-        // Properties
+        // Adding Properties here.
         public string Name { get; set; }
         public int Hunger { get; set; }
         public int Happiness { get; set; }
         public int Health { get; set; }
 
-
-        // Constructors
-
+        // Constructors are added here.
         public VirtualPet(string PetName)
         {
             Name = PetName;
             Hunger = 5;
             Happiness = 5;
             Health = 5;
-
         }
 
+        //Methods are added here.
         public void FeedPet()
         {
             Hunger = --Hunger;
             Health = ++Health;
-            Console.WriteLine($"You fed  {Name}.His Hunger decreases, and Health increases.");
+            Console.WriteLine($"\nYou fed {Name}.His Hunger decreases, and Health increases.");
         }
-
         public void PlayWithPet()
         {
             Hunger = ++Hunger;
             Happiness = ++Happiness;
-            Console.WriteLine($"You played with {Name}.His Hunger increases, and happiness increases.");
-
+            Console.WriteLine($"\nYou played with {Name}.His Hunger increases, and happiness increases.");
         }
-
         public void RestThePet()
         {
             Happiness = --Happiness;
             Health = ++Health;
-            Console.WriteLine($"You let the  {Name} rest.His Health increases and happiness decreases.");
-
+            Console.WriteLine($"\nYou let the {Name} rest.His Health increases and happiness decreases.");
         }
-
         public void DefaultVal()
         {
-
-
-            Console.WriteLine($"Hunger: {Hunger}");
-            Console.WriteLine($"Happiness: {Happiness}");
-            Console.WriteLine($"Health: {Health}");
-            Console.WriteLine();
+            Console.WriteLine($"\n{Name}'s Status :");
+            Console.WriteLine($"\n- Hunger    : {Hunger}");
+            Console.WriteLine($"- Happiness : {Happiness}");
+            Console.WriteLine($"- Health    : {Health}");
         }
-
-
-
     }
-
 }
