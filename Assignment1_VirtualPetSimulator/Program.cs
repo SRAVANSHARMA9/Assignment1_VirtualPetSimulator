@@ -17,6 +17,8 @@ namespace VirtualPetSimulator
             Console.WriteLine("");
             //
             //
+            //
+            //
             Console.WriteLine("User input is : \n");
 
             int PetTypeSel = Convert.ToInt32(Console.ReadLine());
