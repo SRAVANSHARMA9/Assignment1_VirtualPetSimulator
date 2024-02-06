@@ -22,3 +22,11 @@ To get started with the Virtual Pet Simulator (C#), follow these steps:
 
 3. Follow Console Instructions: Interact with the console application by following the on-screen instructions. Choose the pet type, 
 Name a pet, feed them, play with them.
+
+
+Youtube Links for the output recorded:
+
+https://youtu.be/Eq0PKbH5caQ
+
+https://youtu.be/0I4seP-gYsw
+
