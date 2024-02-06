@@ -19,7 +19,7 @@ namespace VirtualPetSimulator
             //Storing the input which users enter.
             int PetTypeSel = Convert.ToInt32(Console.ReadLine());
 
-            //Displaying the type of pet user selected. .
+            //Displaying the type of pet user selected.
             switch (PetTypeSel)
             {
                 case 1:
@@ -88,6 +88,7 @@ namespace VirtualPetSimulator
                     case 5:
                         //set UserPetFunctionSelection to false and program exits
                         UserPetFunctionSelection = false;
+                        Console.WriteLine("\nThank you so much for playing the game.");
                         break;
 
                     default:
